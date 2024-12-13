@@ -1,0 +1,36 @@
+.row {
+    gap: min(2.3vw, 33px);
+    flex-wrap: nowrap;
+}
+.mops-text {
+    display: flex;
+    font-size: min(1.6vw, 24px);
+    line-height: min(2.7vw, 40px);
+    text-align: justify;
+    letter-spacing: 0;
+    margin: 2px 0;
+    align-items: center;
+}
+@media (max-width: 820px) {
+    .mops-img-2-container {
+        width: 100%;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .mops-text {
+        width: 100%;
+    }
+    .mops-text {
+        display: flex;
+        font-size: max(3.3vw, 14px);
+        line-height: max(3.4vw, 24px);
+        text-align: justify;
+        letter-spacing: 0;
+        margin: 2px 0;
+        align-items: center;
+    }
+    .news {
+        font-size: 32px;
+    }
+}
