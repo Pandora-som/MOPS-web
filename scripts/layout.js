@@ -43,7 +43,7 @@ function goToHome(event) {
     const mainFile = event.view.location.pathname.split('/').at(-1);
     
     if (mainFile !== 'index.html') {
-        location.replace('index.html');
+        location.replace('../index.html');
     }
 }
 
